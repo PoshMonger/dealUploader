@@ -1,0 +1,13 @@
+body { 
+    background-color:rgb(167, 130, 172);
+    background-color:rgb(240, 240, 240);
+box-sizing: content-box;
+
+}
+*{
+    font-family:"'Mukta', sans-serif";
+    color:'rgb(46, 44, 44)'
+
+}
+
+html{margin:0}
