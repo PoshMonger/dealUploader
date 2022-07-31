@@ -111,7 +111,7 @@ if (!user?.result){
             {isSignup ? 'Sign Up' : 'Sign In'}
           </Button>
           <GoogleLogin
-            clientId={process.env.REACT_APP_GOOGLE_API_STRING}
+            clientId='88866052798-8bg5tf41ib07dmqudqn45pk53no8qa92.apps.googleusercontent.com'
             render={(renderProps) => (
               <Button className={classes.googleButton} fullWidth onClick={renderProps.onClick} disabled={renderProps.disabled} startIcon={<Icon />} variant="contained">
                 {isSignup ? ' Google Sign Up' : 'Google Sign In'}

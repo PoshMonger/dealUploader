@@ -292,7 +292,7 @@ const Post = () => {
 
                   <div >
                     <div  >
-                      <text className={classes.block} ><b>Asking Price:</b> ${post.listPrice.toLocaleString("en-US")}</text>
+                     
 
                     </div>
                     <text className={classes.block}><b>Asking Price:</b> ${parseInt(post.listPrice).toLocaleString("en-US")}</text>
