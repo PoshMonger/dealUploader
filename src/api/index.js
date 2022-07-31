@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API = axios.create({ baseURL: "https://thewholesaleengineers.herokuapp.com/" });
+const API = axios.create({ baseURL: process.env.REACT_APP_BACKEND });
 
 API.interceptors.request.use((req) => {
   if (localStorage.getItem('profile')) {
@@ -29,7 +29,7 @@ export const signUp = (formData) => API.post('/user/signup', formData);
 
 
 
-const url = 'https://thewholesaleengineers.herokuapp.com/'
+const url = process.env.REACT_APP_BACKEND
 export const fetchContacts = () => axios.get(url);
 export const createContact = (newContact) => axios.post(url, newContact)
 
